@@ -42,7 +42,8 @@ $(document).ready(function () {
             console.log('losses ' + lossCounter);
             reset();
         }
-    })
+    });
+    
 
     function reset() {
         selectedNum = Math.floor(Math.random() * 120 - 19) + 19;
