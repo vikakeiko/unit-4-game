@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CrystalsCollector</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Crystals Collector!</h1>
+    <div class="container col-md-8">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amout of points to your total
+            score.</p>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes
+            above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the value of each crystal.</p>
+    </div>
+    <div class="row">
+        <div class="col-sm" id="try">Try:<span id="selectedNum">0</span></div>
+
+        <div class="col-sm" id="win">Win: <span id="winCounter"></span></div>
+
+        <div class="col-sm" id="loss">Lose: <span id="lossCounter"></span></div>
+
+        <div class="col-sm" id="score">Your total score: <span id="totalScore"></span></div>
+    </div>
+    <div id="pic">
+        <img id="red" src="https://media.istockphoto.com/photos/ruby-gemstone-picture-id168250055?k=6&m=168250055&s=612x612&w=0&h=1HoT6YvHpRBtGMjK4uZhkySmZ2r522F2ffzHbX0V_Gk=" alt="">
+        <img id="blue" src="https://cdn.leibish.com/media/gemstones/thumb_w800/gemstone-304923-sapphire-emerald-royal_blue-a53d7.jpg" alt="">
+        <img id="yellow"
+            src="https://cdn.shopify.com/s/files/1/0380/5717/products/heart-chatham-lab-grown-yellow-sapphire-gems_1024x1024.jpg?v=1535067563"
+            alt="">
+        <img id="green"
+            src="https://images.fineartamerica.com/images-medium-large/1-green-gem-isolated-atiketta-sangasaeng.jpg"
+            alt="">
+    </div>
+
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
